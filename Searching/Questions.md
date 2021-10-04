@@ -27,6 +27,8 @@
 - [Find Right Interval](https://leetcode.com/problems/find-right-interval/)
 - [Reach a Number](https://leetcode.com/problems/reach-a-number/)
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ## Hard
 
@@ -43,10 +45,8 @@
 
 - [Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 - [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)
-- [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)
 - [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
-- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [4 Sum](https://leetcode.com/problems/4sum/)
 
@@ -62,3 +62,6 @@
 - [Divide Chocolate Problem](https://curiouschild.github.io/leetcode/2019/06/21/divide-chocolate.html)
 
 # Revist Questions
+
+- [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
