@@ -29,8 +29,11 @@
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ## Hard
+
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 # UnSolved Questions
 
@@ -47,12 +50,10 @@
 - [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)
 - [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)
 - [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
-- [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [4 Sum](https://leetcode.com/problems/4sum/)
 
 ## Hard
 
-- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
 - [Book allocation](https://www.geeksforgeeks.org/allocate-minimum-number-pages/)
@@ -65,3 +66,4 @@
 
 - [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
