@@ -10,3 +10,15 @@ Recognize that we can bound the solution space: lowest bound for the solution is
 Now that we see that the answer HAS to be in this solution space, we need to find the answer that will give us the minimum max capacity that can ship out all containers within D days. So we can go through all the possible solutions linearly (from 10 to 55) and find the solution that will give us what we're looking for. We need to have a function that will calculate linearly (this function, calculate_days_to_ship, isn't too bad to implement, do it on your own) how many days it will take to ship out all the containers with our solutions ranging from 10 to 55.
 The above is a bit of a naive approach. 10 to 55 isn't that big of a range but what if we had 10 to 100000000000? Since we know the problem is bounded, we can do a binary search to significantly speed up our algorithm. If the calculate_days_to_ship function spits out a number of days <= D, then it COULD be the solution, so we keep it in our solution space, so we move the right bound to m (smaller minimum max capacity will give us a bigger days_to_ship number), and if we get a number of days > D, then we know it CAN'T be the solution because we're only interested in days within D (<= D).
 Eventually, you will come to your answer. Also check out LC 410: Split Array Largest Sum, this is the problem I first struggled with before I understood what was going on. Also check out First Bad Version, it is perfect for understanding how to implement the modified binary search algorithm that you need for problems like these.
+
+Questions similar to agressive cows
+
+1552. Magnetic Force Between Two Balls
+1553. Minimum Speed to Arrive on Time
+1554. Koko Eating Bananas
+1555. Capacity To Ship Packages Within D Days
+1556. Find the Smallest Divisor Given a Threshold
+1557. Minimum Number of Days to Make m Bouquets
+      1231 Divide Chocolate
+      774 Minimize Max Distance to Gas Station
+      410 Split Array Largest Sum

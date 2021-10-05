@@ -31,6 +31,8 @@
 - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
+- [1552. Magnetic Force Between Two Balls]()
+
 ## Hard
 
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
