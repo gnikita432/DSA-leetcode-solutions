@@ -38,4 +38,24 @@ public static int paths(int n, int[] arr, int idx, int[] qb){
       qb[idx] = path;
       return path;
   }
+
+//DP - Tabulation Approach
+
+public static int paths(int n, int[] arr){
   
+  int[] tabulation = new int[n+1];
+  
+  tabulation[n] = 1;
+  
+  for(int t=n-1; t>=0; t--){
+      for(int jump=1; jump<=arr[t] && jump+t<=n; jump++){
+          tabulation[t] += tabulation[t+jump];
+      }
+  }
+  
+  return tabulation[0];
+  
+  }
+
+// Time Complexity : O(n^2)
+// Space Complexity : O(n)
