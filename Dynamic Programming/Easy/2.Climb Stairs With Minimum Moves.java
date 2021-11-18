@@ -50,4 +50,26 @@
         
         return ans; 
     }
+
+
+//DP - Tabulation Approach
+ public static int minpathstab(int n, int[] arr){
+        
+        int[] tabulation = new int[n+1];
+        
+        tabulation[n]=0;
+        for(int tab = n-1; tab>=0; tab--){
+            int min = Integer.MAX_VALUE;
+            for(int jumps=1; jumps<=arr[tab] && tab+jumps<=n; jumps++){
+              int pans = tabulation[tab+jumps];
+               if(min>pans){
+                   min=pans;
+               }
+            }
+            tabulation[tab]= min==Integer.MAX_VALUE? min : min+1;
+        }
+        return tabulation[0];
+    }
+    // Time Complexity : O(n^2)
+    // Space Complexity:O(n)
     
