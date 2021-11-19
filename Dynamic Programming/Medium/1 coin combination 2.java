@@ -57,3 +57,23 @@ class Solution {
         return count;
     }
 }
+
+// DP - Tabulation Approach
+
+class Solution {
+    public int change(int amount, int[] coins) {
+        
+        int[] dp = new int[amount+1];
+        dp[0] = 1;
+      
+            for(int coin=0; coin<coins.length; coin++){
+                    for(int amt=1; amt<dp.length; amt++){
+                      if(amt>=coins[coin]){
+                      dp[amt]+=dp[amt - coins[coin]];
+                      }
+                }
+           }
+        return dp[amount];
+    }
+}
+
