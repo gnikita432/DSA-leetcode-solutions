@@ -26,3 +26,5 @@
                                   val, n - 1),
                        knapSack(W, wt, val, n - 1));
     }
+// Time Complexity: O(2^n). 
+// Auxiliary Space :O(1). 
