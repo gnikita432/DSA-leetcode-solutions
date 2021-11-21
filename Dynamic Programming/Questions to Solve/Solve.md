@@ -9,3 +9,5 @@
 5. https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 
 6. https://practice.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1#
+
+7. https://leetcode.com/problems/decode-ways/ (imp)
