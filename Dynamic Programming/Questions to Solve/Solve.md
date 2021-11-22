@@ -11,3 +11,5 @@
 6. https://practice.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1#
 
 7. https://leetcode.com/problems/decode-ways/ (imp)
+
+8. https://leetcode.com/problems/decode-ways-ii/
