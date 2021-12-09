@@ -60,3 +60,27 @@ class Solution {
         return ans;
     }
 }
+
+
+// Post Order Traversal
+
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List <Integer> ans = new ArrayList<>();
+        
+        return preorder(ans, root);
+        
+    }
+    
+    public List<Integer> preorder(List ans , TreeNode root){
+        if(root == null){
+            return ans;
+        }
+        
+        preorder(ans, root.left);
+        preorder(ans, root.right);
+        ans.add(root.val);
+        
+        return ans;
+    }
+}
