@@ -37,3 +37,26 @@ class Solution {
         return ans;
     }
 }
+
+// In Order Traversal
+
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List <Integer> ans = new ArrayList<>();
+        
+        return preorder(ans, root);
+        
+    }
+    
+    public List<Integer> preorder(List ans , TreeNode root){
+        if(root == null){
+            return ans;
+        }
+        
+        preorder(ans, root.left);
+        ans.add(root.val);
+        preorder(ans, root.right);
+        
+        return ans;
+    }
+}
