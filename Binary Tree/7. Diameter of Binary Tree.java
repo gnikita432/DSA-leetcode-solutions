@@ -33,3 +33,39 @@ class Solution {
         
     }
 }
+
+
+// Efficient Approach - O(n)
+
+class Solution {
+    public int diameterOfBinaryTree(TreeNode root) {
+       
+      diapair ans = diameter2(root);
+       return ans.dia;
+    }
+    
+     class diapair{
+        int ht;
+        int dia;
+    }
+    
+    public diapair diameter2(TreeNode root){
+        if(root == null){
+            diapair bp = new diapair();
+            bp.ht = -1;
+            bp.dia = 0;
+            return bp;
+        }
+        diapair ld = diameter2(root.left);
+        diapair rd = diameter2(root.right);
+        
+        diapair mp = new diapair();
+        mp.ht = Math.max(ld.ht, rd.ht)+1;
+        
+        int factor = ld.ht + rd.ht +2;
+        mp.dia = Math.max(factor, Math.max(ld.dia, rd.dia) );
+            
+            return mp;
+    }
+    
+}
