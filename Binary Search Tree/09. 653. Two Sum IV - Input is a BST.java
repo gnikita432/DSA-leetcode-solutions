@@ -25,3 +25,22 @@ public boolean findTarget(TreeNode root, int k) {
 // The idea is to use a sorted array to save the values of the nodes in the BST by using an inorder traversal. Then, we use two pointers which begins from the start and end of the array to find if there is a sum k.
 
 // Time Complexity: O(n), Space Complexity: O(n)
+
+
+//Approach 2
+
+ public boolean findTarget(TreeNode root, int k) {
+        return dfs(root, root,  k);
+    }
+    
+    public boolean dfs(TreeNode root,  TreeNode cur, int k){
+        if(cur == null)return false;
+        return search(root, cur, k - cur.val) || dfs(root, cur.left, k) || dfs(root, cur.right, k);
+    }
+    
+    public boolean search(TreeNode root, TreeNode cur, int value){
+        if(root == null)return false;
+        return (root.val == value) && (root != cur) 
+            || (root.val < value) && search(root.right, cur, value) 
+                || (root.val > value) && search(root.left, cur, value);
+    }
