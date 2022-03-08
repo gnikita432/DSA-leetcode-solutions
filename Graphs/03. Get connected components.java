@@ -39,3 +39,7 @@
 // The space complexity of the above code is O(h) where h is the height of the recursion stack.
 // So, dear reader, we hope that you have understood everything completely. We recommend you watch the complete solution video once to understand the concept once completely. With this, we have completed our discussion of this problem.
 
+
+//Is Graph Connected
+
+System.out.println(comps.size() == 1); //1
